@@ -1,0 +1,20 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: bln1
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - property:
+          name: rox.platform
+          operator: in-array
+          operands:
+            - abc
+    flagValue: false
