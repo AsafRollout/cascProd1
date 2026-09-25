@@ -4,4 +4,7 @@ kind: flag-properties
 
 name: internal.api_version
 type: Semver
-description: ""
+description: |-
+  one line
+  2nd line
+  and a third
