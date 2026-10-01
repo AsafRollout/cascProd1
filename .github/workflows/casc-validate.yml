@@ -1,0 +1,13 @@
+name: Validate CasC
+
+on:
+  pull_request:
+    paths:
+      - '.cloudbees/casc/feature-management/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: AsafRollout/casc-fm-validate-action@v1
