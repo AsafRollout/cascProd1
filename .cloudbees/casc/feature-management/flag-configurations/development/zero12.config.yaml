@@ -4,10 +4,11 @@ kind: flag-configuration
 
 flag: zero12
 
-enabled: false
-
+enabled: true
+ 
 stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
 conditions: []
+ 
