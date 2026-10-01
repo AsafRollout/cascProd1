@@ -5,7 +5,7 @@ kind: flag-configuration
 flag: zero12
 
 enabled: true
-
+ 
 stickinessProperty: rox.distinct_id
 
 defaultValue: true
